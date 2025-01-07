@@ -1,0 +1,24 @@
+.contactPage{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.contactPage .banniere{
+    @apply h-[60vh] md:h-[80vh] w-[100%];
+    background: url('../../../public/assets/images/shop/Poulet-Yassa.jpg');
+}
+.contactPage .cover{
+    height: 100%;
+    width: 100%;
+    background: var(--black-transparent1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactPage .page-title{
+    @apply text-[3rem] md:text-[3.3rem] lg:text-[4rem];
+    color: var(--white);
+}

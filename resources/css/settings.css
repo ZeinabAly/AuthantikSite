@@ -1,0 +1,74 @@
+/* LES COULEURS */
+:root{
+    --color1-green: #025239;
+    --color2-yellow: #ce9c2d;
+    --color3-white: #effbf7;
+    --color4-yellow2: #c99a32;
+    --colorUstensils-brown: #945738;
+    --color2-brownLeger: #b98c6b;
+    --white: #fff;
+    --black: #000;
+    --white-transparent1: #ffffffa8;
+    --black-transparent1: #000000d8;
+    --gray-leger1: #f1f1f1;
+}
+
+.text-green1{
+    color: var(--color1-green);
+}
+.text-yellow1{
+    color: var(--color2-yellow);
+}
+.text-yellow2{
+    color: var(--color4-yellow2);
+}
+.text-white1{
+    color: var(--color3-white);
+}
+.text-brow1{
+    color: var(--colorUstensils-brown);
+}
+.text-browLeger{
+    color: var(--color2-brownLeger);
+}
+.text-white{
+    color: var(--white);
+}
+.text-black{
+    color: var(--black);
+}
+.text-white-transparent1{
+    color: var(--white-transparent1);
+}
+.text-white-transparent1{
+    color: var(--white-transparent1);
+}
+.text-black-transparent1{
+    color: var(--black-transparent1);
+}
+.text-gray-leger1{
+    color: var(--gray-leger1);
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

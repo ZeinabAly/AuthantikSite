@@ -1,0 +1,38 @@
+.aboutPage{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: var(--gray-leger1);
+}
+.aboutPage .banniere{
+    @apply w-[100%] h-[60vh] md:h-[80vh] relative flexCenter;
+}
+.aboutPage .banniere .cover{
+    @apply h-[100%] w-[100%] flexCenter;
+    background: var(--black-transparent1);
+}
+.aboutPage .page-title{
+    @apply text-center text-white text-4xl md:text-4xl lg:text-5xl font-bold;
+}
+.aboutPage .page-title span{
+    @apply text-orange-500;
+}
+
+/* SECTION1: NOTRE HISTOIRE */
+
+.section1Histoire .section1Container{
+    @apply w-[90%] lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 items-center mt-10;
+}
+.section1Histoire .section1Container .texte{
+    @apply text-justify bg-white;
+}
+.section1Histoire .histoire-title{
+    @apply text-orange-500 text-2xl font-bold text-center py-4;
+}
+.section1Histoire .images{
+    @apply grid grid-cols-2 gap-[2px];
+}
+.section1Histoire .images img{
+    @apply h-[100%] w-[100%] object-cover;
+}

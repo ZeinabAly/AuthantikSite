@@ -1,0 +1,16 @@
+/* LES STYLES DE L'INTERFACE UTILISATEUR */
+@import './settings.css';
+@import './interfaceUser/header.css';
+@import './interfaceUser/pages/index.css';
+@import './interfaceUser/pages/reservation.css';
+@import './interfaceUser/pages/contact.css';
+@import './interfaceUser/pages/apropos.css';
+
+/* LES STYLES DE L'INTERFACE ADMIN */
+@import './admin/sidebar.css';
+@import './admin/pages/product.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
